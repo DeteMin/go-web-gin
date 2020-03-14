@@ -56,3 +56,9 @@ func RsaTest(c *gin.Context) {
 	utilGin := response.Gin{Ctx: c}
 	utilGin.Response(1, fmt.Sprintf("%v次 - %v", count, time.Since(startTime)), nil)
 }
+
+func SupTest(c *gin.Context) {
+	fmt.Printf("自己本地controller测试")
+	utilGin := response.Gin{Ctx:c}
+	utilGin.Response(200,"测试成功！",nil)
+}

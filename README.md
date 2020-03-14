@@ -1,10 +1,6 @@
-![](https://github.com/xinliangnote/Go/blob/master/03-go-gin-api%20%5B%E6%96%87%E6%A1%A3%5D/images/go-gin-api-logo.png)
-
 ## go-gin-api
 
 基于 [Gin](https://github.com/gin-gonic/gin) 进行模块化设计的 API 框架，封装了常用的功能，使用简单，致力于进行快速的业务研发。
-
-持续更新... 
 
 ## Features
 
@@ -40,7 +36,7 @@
 ## Download
 
 ```
-git clone https://github.com/xinliangnote/go-gin-api.git
+git clone https://github.com/DeteMin/go-web-gin.git
 ```
 
 ## Quick start
@@ -84,14 +80,6 @@ curl -X POST http://127.0.0.1:9999/product
 ```
 http://127.0.0.1:9999/jaeger_test
 ```
-
-服务端测试代码：
-
-- [https://github.com/xinliangnote/go-jaeger-demo](https://github.com/xinliangnote/go-jaeger-demo)
-
-![](https://github.com/xinliangnote/Go/blob/master/03-go-gin-api%20%5B文档%5D/images/jaeger_demo_2.png)
-
-![](https://github.com/xinliangnote/Go/blob/master/03-go-gin-api%20%5B文档%5D/images/jaeger_demo_3.png)
 
 #### pprof 
 
@@ -143,19 +131,4 @@ http://127.0.0.1:9998/ui/
 - WEB 框架：github.com/gin-gonic/gin
 - 链路追踪：github.com/jaegertracing/jaeger-client-go
 - 限流：golang.org/x/time/rate
-- 工具包：github.com/xinliangnote/go-util
-
-## Document
-
-- [1. 使用 go modules 初始化项目](https://mp.weixin.qq.com/s/1XNTEgZ0XGZZdxFOfR5f_A)
-- [2. 规划项目目录和参数验证](https://mp.weixin.qq.com/s/11AuXptWGmL5QfiJArNLnA)
-- [3. 路由中间件 - 日志记录](https://mp.weixin.qq.com/s/eTygPXnrYM2xfrRQyfn8Tg)
-- [4. 路由中间件 - 捕获异常](https://mp.weixin.qq.com/s/SconDXB_x7Gan6T0Awdh9A)
-- [5. 路由中间件 - Jaeger 链路追踪（理论篇）](https://mp.weixin.qq.com/s/28UBEsLOAHDv530ePilKQA)
-- [6. 路由中间件 - Jaeger 链路追踪（实战篇）](https://mp.weixin.qq.com/s/Ea28475_UTNaM9RNfgPqJA)
-- [7. 路由中间件 - 签名验证](https://mp.weixin.qq.com/s/0cozELotcpX3Gd6WPJiBbQ)
-
-## Learning together
-
-![](https://github.com/xinliangnote/Go/blob/master/00-基础语法/images/qr.jpg)
 

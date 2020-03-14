@@ -58,5 +58,8 @@ func SetupRouter(engine *gin.Engine) {
 
 		// 测试 RSA 的性能
 		TestRouter.GET("/rsa", test.RsaTest)
+
+		//注册自己的controller
+		TestRouter.GET("/jin",test.SupTest)
 	}
 }
